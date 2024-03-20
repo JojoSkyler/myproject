@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as needed */
+    overflow: hidden;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust height as per your requirement */
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures the video covers the entire container */
+}
+
+.introduction {
+    background-color: #f0f0f0;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.pillars{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.mission{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.vision{
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.image-container{
+    display: inline-block; /* Ensure container doesn't expand unnecessarily */
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 80%;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #f0f0f0;
+}
+.image-container a {
+    display: block; /* Make the link fill the container */
+}
+.image-container img {
+    max-width: 100%; /* Ensure image doesn't exceed the container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Gap between photos */
+    padding: 20px;
+}
+.grid-item {
+    position: relative;
+    overflow: hidden;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.grid-item:hover img {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+.grid-item a {
+    display: block;
+    text-decoration: none;
+}
+
+.title {
+    background-color: #080808; /* Background color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    color: white; /* Text color */
+  }
+
+  .vision2 {
+    margin: 40%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  /* Style for the slider */
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition */
+  }
+  
+  /* Style for the navigation buttons */
+  .slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }

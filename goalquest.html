@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GOAL QUEST</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="video-container">
+                <video autoplay loop muted>
+                    <source src="vid3.mp4" type="video/mp4">
+                    <!-- Add more source elements for different formats if needed -->
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <!-- Other header content goes here -->
+        </header>
+        <section class="introduction">
+            <h2 style="text-align: center; color: gold;font-size: xx-large;">INTRODUCTION</h2>
+            <p style="font-size: x-large;">GOAL QUEST FOUNDATION is a Community Based Organization committed to sustainability, social changes & youth empowerment. We are devoted to engaging the youths in matters of environmental responsibility. We aim to empower young minds with the knowledge and tools necessary to become responsible environmental stewards.</p>  </p>
+        </section>
+        <section class="pillars">
+            <h2 style="text-align: center; color: gold; font-size: xx-large;">OUR PILLARS</h2>
+            <p> <div style="font-style: italic; font-weight: bold;font-size: x-large;">1. Youth Empowerment:</div>
+               <br>
+            <div style="font-size: x-large;">-Empowering the next generation through education, mentorship and skill development.</div>
+            <div style="font-size: x-large;">-Creating opportunities for young individuals to unlock their full potential and contribute to their communities.</div>
+               <br>
+               <div style="font-style: italic; font-weight: bold; font-size: x-large;">2. Environmental Conservation:</div>
+               <br>
+            <div style="font-size: x-large;">-Initiatives focused on sustainable practices, reforestation and reducing our ecological footprint.</div>
+            <div style="font-size: x-large;">-Collaborating with communities to raise awareness and implement eco-friendly solutions.</div>
+              <br>
+               <div style="font-style: italic; font-weight: bold;font-size: x-large; ">3. Mental Health Awareness:</div>
+              <br>
+            <div style="font-size: x-large;">-Breaking the stigma surrounding mental health through advocacy and educational programs.</div>
+            <div style="font-size: x-large;">-Providing resources and support for individuals facing mental health challenges.</div>
+             <br>
+            </p> 
+        </section>
+        <section class="mission">
+            <h2 style="text-align: center; color: gold; font-size: xx-large;">OUR MISSION</h2>
+            <br>
+            <p style="font-size: x-large;">To inspire people to enhance health and overcome hunger and hardships.</p>
+        </section>
+        <section class="vision">
+            <h2 style="text-align: center; color: gold; font-size: xx-large;">OUR VISION</h2>
+            <br>
+            <p style="font-size: x-large;">To empower a world to which the less fortunate will have the power to uplift themselves out of poverty.</p>
+        </section>
+        <section class="vision2">
+            <h2 style="text-align: center; color: gold; font-size:xx-large;">CATALOGUE</h2>
+        </section>
+        <section>
+            <h2 class="title" style="text-align: center; color:rgb(250, 250, 250); font-family: cursive;">EXECUTIVE COMMITTEE</h2>
+            <br>
+            <!-- Slider Container -->
+<div class="slider-container">
+    <!-- Navigation Buttons -->
+    <div class="slider-nav prev" onclick="moveSlide(-1)">❮</div>
+    <div class="slider-nav next" onclick="moveSlide(1)">❯</div>
+    <br>
+    <div class="slider">
+            <div class="image-container">
+            <a href="executive committee.jpg">
+                <img src="executive committee.jpg" alt="Clickable Image">
+            </a>
+            </div>
+            <div class="image-container">
+            <a href="cons1.jpg">
+                <img src="cons1.jpg" alt="Clickable Image">
+            </a>
+            </div>
+            <div class="image-container">
+            <a href="cln6.jpg">
+                <img src="cln6.jpg" alt="Clickable Image">
+            </a>
+            </div>
+            <div class="image-container">
+            <a href="cs1.jpg">
+                <img src="cs1.jpg" alt="Clickable Image">
+            </a>
+            </div>
+            <div class="image-container">
+            <a href="ah1.jpg">
+                <img src="ah1.jpg" alt="Clickable Image">
+            </a>
+            </div>
+            </div>
+            <script>
+                let currentIndex = 0;
+                const slides = document.querySelectorAll('.slider img');
+                
+                function moveSlide(direction) {
+                  currentIndex = (currentIndex + direction + slides.length) % slides.length;
+                  const slideWidth = slides[0].clientWidth;
+                  document.querySelector('.slider').style.transform = `translateX(${-currentIndex * slideWidth}px)`;
+                }
+              </script>
+        </section>
+        <section>
+            <h2 class="title"  style="text-align: center; color:rgb(248, 242, 242); font-family: cursive;">CONSOLATA SHRINE</h2>
+            <br>
+            <P style="font-size: x-large;">Goal Quest Foundation in close partnership with Felicia Mariga Foundation, successfully organized a transformative event at Consolata Shrine, mentoring girls on menstrual hygiene. We also distributed  essential sanitary pads, contributing to the well-being of these young individuals. Together, we strive to empower and uplift communities. </P>
+            <br>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="cons1.jpg">
+                        <img src="cons1.jpg" alt="Photo 1">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons2.jpg">
+                        <img src="cons2.jpg" alt="Photo 2">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons3.jpg">
+                        <img src="cons3.jpg" alt="Photo 3">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons4.jpg">
+                        <img src="cons4.jpg" alt="Photo 4">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons5.jpg">
+                        <img src="cons5.jpg" alt="Photo 5">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons6.jpg">
+                        <img src="cons6.jpg" alt="Photo 6">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons7.jpg">
+                        <img src="cons7.jpg" alt="Photo 7">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons8.jpg">
+                        <img src="cons8.jpg" alt="Photo 8">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cons9.jpg">
+                        <img src="cons9.jpg" alt="Photo 9">
+                    </a>
+                </div>
+        </section>
+        <section>
+            <h2 class="title" style="text-align: center; color:rgb(253, 253, 253); font-family: cursive;">CLEAN UP INITIATIVE</h2>
+            <br>
+            <P style="font-size: x-large;">We successfully completed a clean up event in partnership with the Nairobi County Government, Felicia Mariga Organization and key stakeholders within the ward on March 8th. </P>
+            <br>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="cln1.jpg">
+                        <img src="cln1.jpg" alt="Photo 1">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln2.jpg">
+                        <img src="cln2.jpg" alt="Photo 2">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln3.jpg">
+                        <img src="cln3.jpg" alt="Photo 3">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln4.jpg">
+                        <img src="cln4.jpg" alt="Photo 4">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln5.jpg">
+                        <img src="cln5.jpg" alt="Photo 5">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln6.jpg">
+                        <img src="cln6.jpg" alt="Photo 6">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln7.jpg">
+                        <img src="cln7.jpg" alt="Photo 7">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln8.jpg">
+                        <img src="cln8.jpg" alt="Photo 8">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="cln9.jpg">
+                        <img src="cln9.jpg" alt="Photo 9">
+                    </a>
+                </div>
+        </section>
+        <section>
+            <h2 class="title"  style="text-align: center; color:rgb(248, 242, 242); font-family: cursive;">BRILLIANT ACADEMY</h2>
+            <br>
+            <P style="font-size: x-large;">We successfully commenced our long-planned mentorship program at Brilliant academy with our representatives initiating insightful teachins for the students. We embraced open dialogue among the Brilliant Angels. The program is structured to occur twice evvery month on Fridays. Looking forward to the continued success.</P>
+            <br>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="ba1.jpg">
+                        <img src="ba1.jpg" alt="Photo 1">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="ba2.jpg">
+                        <img src="ba2.jpg" alt="Photo 2">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="ba3.jpg">
+                        <img src="ba3.jpg" alt="Photo 3">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="ba4.jpg">
+                        <img src="ba4.jpg" alt="Photo 4">
+                    </a>
+                </div>
+                <div class="grid-item">
+                    <a href="ba5.jpg">
+                        <img src="ba5.jpg" alt="Photo 5">
+                    </a>
+            </div>
+        </section>
+        <section>
+            <h2 class="title"  style="text-align: center; color:rgb(248, 242, 242); font-family: cursive;">CLIMATE SECURITY FORUM</h2>
+            <br>
+            <P style="font-size: x-large;"> We gather at the Climate Security Forum to forge a path towards a resilient, sustainable and secure future.</P>
+            <br>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="cs1.jpg">
+                        <img src="cs1.jpg" alt="Photo 1">
+                    </a>
+            </div>
+        </section>
+        <section>
+            <h2 class="title"  style="text-align: center; color:rgb(248, 242, 242); font-family: cursive;">ALLIANCE HIGHSCHOOL</h2>
+            <br>
+            <P style="font-size: x-large;"> On February 10th, we successfully completed the follow-up on the trees we planted on 2023 World Environment in partnership with Alliance Highschool.We replaced 100 seedlings which had failed.</P>
+            <br>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="ah1.jpg">
+                        <img src="ah1.jpg" alt="Photo 1">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah2.jpg">
+                        <img src="ah2.jpg" alt="Photo 2">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah3.jpg">
+                        <img src="ah3.jpg" alt="Photo 3">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah4.jpg">
+                        <img src="ah4.jpg" alt="Photo 4">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah5.jpg">
+                        <img src="ah5.jpg" alt="Photo 5">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah6.jpg">
+                        <img src="ah6.jpg" alt="Photo 6">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah7.jpg">
+                        <img src="ah7.jpg" alt="Photo 7">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah8.jpg">
+                        <img src="ah8.jpg" alt="Photo 8">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah9.jpg">
+                        <img src="ah9.jpg" alt="Photo 9">
+                    </a>
+            </div>
+            <div class="grid-item">
+                    <a href="ah10.jpg">
+                        <img src="ah10.jpg" alt="Photo 10">
+                    </a>
+            </div>
+        </section>
+        <section>
+            <h2 class="title"  style="text-align: center; color:rgb(248, 242, 242); font-family: cursive;">KIRITI GIRLS MENSTRUAL HYGIENE</h2>
+            <br>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <a href="k1.jpg">
+                        <img src="k1.jpg" alt="Photo 1">
+                    </a>
+            </div>
+            <div class="grid-item">
+                <a href="k2.jpg">
+                    <img src="k2.jpg" alt="Photo 2">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k3.jpg">
+                    <img src="k3.jpg" alt="Photo 3">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k4.jpg">
+                    <img src="k4.jpg" alt="Photo 4">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k5.jpg">
+                    <img src="k5.jpg" alt="Photo 5">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k6.jpg">
+                    <img src="k6.jpg" alt="Photo 6">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k7.jpg">
+                    <img src="k7.jpg" alt="Photo 7">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k8.jpg">
+                    <img src="k8.jpg" alt="Photo 8">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k9.jpg">
+                    <img src="k9.jpg" alt="Photo 9">
+                </a>
+        </div>
+        <div class="grid-item">
+                <a href="k10.jpg">
+                    <img src="k10.jpg" alt="Photo 10">
+                </a>
+        </div>
+        </section>
+    </body>
+</html>
